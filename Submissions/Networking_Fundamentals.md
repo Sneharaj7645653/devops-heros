@@ -16,7 +16,7 @@ Based on the DevOps-Hero GitHub repository, I practiced the following networking
 ### 1. PING Command
 
 #### Command Executed:
-![alt text](image-5.png)
+![alt text](image-6.png)
 
 #### Explanation:
 The ping command tests network connectivity to a remote host by sending ICMP echo request packets. From the output:
@@ -125,6 +125,8 @@ hostname
 hostname -I  # Works on Linux
 ```
 
+![alt text](image-7.png)
+
 #### Explanation:
 The `hostname` command displays the system's hostname. On macOS, the output is typically `[username]-MacBook-Air.local`. This command is useful for identifying the system on a network.
 
@@ -174,16 +176,8 @@ nslookup google.com
 - **Purpose:** Transfers data to/from a server.
 
 #### Commands to Execute:
-```bash
-# Show HTTP headers only
-curl -I google.com
 
-# Download a webpage
-curl google.com | head -20
-
-# Download and save to a file
-curl -o google.html google.com
-```
+![alt text](image-8.png)
 
 #### Explanation:
 `curl` (Client URL) is a command-line tool for transferring data with URLs. The `-I` option shows only the HTTP headers, which is useful for checking server responses and troubleshooting web connectivity.
